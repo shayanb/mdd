@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_t-HHQBfbEeKt8aQM97THUg" type="EcoreTools" name="ToDoListDiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_ovjFwBfdEeKt8aQM97THUg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ovs2wBfdEeKt8aQM97THUg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ovs2wRfdEeKt8aQM97THUg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_uhHmUBfeEeKt8aQM97THUg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="ToDoListDiag.ecore#//Task/importanceLevel"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uhHmURfeEeKt8aQM97THUg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zjhwQBfeEeKt8aQM97THUg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="ToDoListDiag.ecore#//Task/status"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zjhwQRfeEeKt8aQM97THUg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ovs2whfdEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ovs2wxfdEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ovs2xBfdEeKt8aQM97THUg"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_zULiIBfdEeKt8aQM97THUg" value="0.31756756756756754"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ovuE4BfdEeKt8aQM97THUg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ovuE4RfdEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ovuE4hfdEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ovuE4xfdEeKt8aQM97THUg"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_zUMJMBfdEeKt8aQM97THUg" value="0.5743243243243243"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ovjs0BfdEeKt8aQM97THUg" fontColor="4210752" fontName="Ubuntu" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="ToDoListDiag.ecore#//Task"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ovjs0RfdEeKt8aQM97THUg" x="96" y="252" height="150"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_0tA9UBfdEeKt8aQM97THUg" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_0tBkYBfdEeKt8aQM97THUg" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_0tCLcBfdEeKt8aQM97THUg" type="5008">
+      <children xmi:type="notation:Node" xmi:id="__3TEcBfdEeKt8aQM97THUg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="ToDoListDiag.ecore#//Status/NOT_STARTED"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__3TEcRfdEeKt8aQM97THUg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_DjC9cBfeEeKt8aQM97THUg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="ToDoListDiag.ecore#//Status/IN_PROGRESS"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DjC9cRfeEeKt8aQM97THUg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_E1ZWIBfeEeKt8aQM97THUg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="ToDoListDiag.ecore#//Status/DONE"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_E1ZWIRfeEeKt8aQM97THUg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_0tCLcRfdEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0tCLchfdEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0tCLcxfdEeKt8aQM97THUg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_0tA9URfdEeKt8aQM97THUg" fontColor="4210752" fontName="Ubuntu" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="ToDoListDiag.ecore#//Status"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0tA9UhfdEeKt8aQM97THUg" x="360" y="156" height="174"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_5a624BfdEeKt8aQM97THUg" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_5a7d8BfdEeKt8aQM97THUg" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_5a7d8RfdEeKt8aQM97THUg" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_FrNj0BfeEeKt8aQM97THUg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="ToDoListDiag.ecore#//Importance/LOW"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FrNj0RfeEeKt8aQM97THUg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_GK9a4BfeEeKt8aQM97THUg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="ToDoListDiag.ecore#//Importance/MEDIUM"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GK9a4RfeEeKt8aQM97THUg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_GudwkBfeEeKt8aQM97THUg" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="ToDoListDiag.ecore#//Importance/HIGH"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GudwkRfeEeKt8aQM97THUg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5a7d8hfdEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5a7d8xfdEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5a7d9BfdEeKt8aQM97THUg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_5a624RfdEeKt8aQM97THUg" fontColor="4210752" fontName="Ubuntu" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="ToDoListDiag.ecore#//Importance"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5a624hfdEeKt8aQM97THUg" x="360" y="24" height="111"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_D2Pw0BffEeKt8aQM97THUg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_D2QX4BffEeKt8aQM97THUg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_D2QX4RffEeKt8aQM97THUg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_D2QX4hffEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_D2QX4xffEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_D2QX5BffEeKt8aQM97THUg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_D2QX5RffEeKt8aQM97THUg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_D2QX5hffEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_D2QX5xffEeKt8aQM97THUg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_D2QX6BffEeKt8aQM97THUg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_D2Pw0RffEeKt8aQM97THUg" fontColor="4210752" fontName="Ubuntu" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="ToDoListDiag.ecore#//Folder"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D2Pw0hffEeKt8aQM97THUg" x="108" y="24" height="90"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_t-HHQRfbEeKt8aQM97THUg"/>
+  <element xmi:type="ecore:EPackage" href="ToDoListDiag.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_F2l38BffEeKt8aQM97THUg" type="3002" source="_D2Pw0BffEeKt8aQM97THUg" target="_ovjFwBfdEeKt8aQM97THUg">
+    <children xmi:type="notation:Node" xmi:id="_F2nGEBffEeKt8aQM97THUg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_F2nGERffEeKt8aQM97THUg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_F2ntIBffEeKt8aQM97THUg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_F2ntIRffEeKt8aQM97THUg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_F2l38RffEeKt8aQM97THUg" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_F2l38hffEeKt8aQM97THUg" fontColor="4210752" fontName="Ubuntu" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="ToDoListDiag.ecore#//Folder/contains"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_F2l38xffEeKt8aQM97THUg" points="[-20, 44, 3, -166]$[-23, 52, 0, -158]$[-23, 184, 0, -26]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pOO68BffEeKt8aQM97THUg" id="(0.5,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pOO68RffEeKt8aQM97THUg" id="(0.19138755980861244,0.18)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_gX5zcBffEeKt8aQM97THUg" type="3002" source="_ovjFwBfdEeKt8aQM97THUg" target="_D2Pw0BffEeKt8aQM97THUg">
+    <children xmi:type="notation:Node" xmi:id="_gX6agBffEeKt8aQM97THUg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gX6agRffEeKt8aQM97THUg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_gX6aghffEeKt8aQM97THUg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gX6agxffEeKt8aQM97THUg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_gX5zcRffEeKt8aQM97THUg" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gX5zchffEeKt8aQM97THUg" fontColor="4210752" fontName="Ubuntu" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="ToDoListDiag.ecore#//Task/belongsTo"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gX5zcxffEeKt8aQM97THUg" points="[0, -26, -23, 184]$[0, -158, -23, 52]$[3, -166, -20, 44]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gX7ooBffEeKt8aQM97THUg" id="(0.19138755980861244,0.18)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pONFwBffEeKt8aQM97THUg" id="(0.5,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_wZu4UBffEeKt8aQM97THUg" type="3002" source="_D2Pw0BffEeKt8aQM97THUg" target="_D2Pw0BffEeKt8aQM97THUg">
+    <children xmi:type="notation:Node" xmi:id="_wZvfYBffEeKt8aQM97THUg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wZvfYRffEeKt8aQM97THUg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_wZwGcBffEeKt8aQM97THUg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wZwGcRffEeKt8aQM97THUg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_wZu4URffEeKt8aQM97THUg" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wZu4UhffEeKt8aQM97THUg" fontColor="4210752" fontName="Ubuntu" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="ToDoListDiag.ecore#//Folder/contains.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wZu4UxffEeKt8aQM97THUg" points="[17, 6, 50, 0]$[17, 6, 50, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wZxUkBffEeKt8aQM97THUg" id="(0.8333333333333334,0.43333333333333335)"/>
+  </edges>
+</notation:Diagram>
